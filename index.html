@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.js" defer></script>
+    <title>Morse Code Translator</title>
+  </head>
+  <body>
+    <main class="translator__page">
+      <h1 class="translator__title">Morse Code Translator</h1>
+
+      <section class="translator__container">
+        <div class="translator__area">
+          <h2 class="translator__heading">Translate</h2>
+
+          <div class="translator__modes">
+            <label class="translator__mode">
+              <input type="radio" name="mode" value="eng-to-morse" checked />
+              English → Morse
+            </label>
+            <label class="translator__mode">
+              <input type="radio" name="mode" value="morse-to-eng" />
+              Morse → English
+            </label>
+          </div>
+
+          <label class="translator__input" for="inputText">Input</label>
+          <textarea
+            id="inputText"
+            class="translator__textarea translator__textarea--input"
+            placeholder="Type English or Morse here, depending on the selected mode..."
+          ></textarea>
+<div class="buttons">
+          <button id="translateBtn" class="translator__button">
+            Translate
+          </button>
+
+          <button id="clearBtn">
+            Clear
+          </button>
+          </div>
+
+          
+
+          <label class="translator__output" for="outputText"> Output </label>
+          <textarea
+            id="outputText"
+            class="translator__textarea translator__textarea--output"
+            placeholder="Translation will appear here..."
+            readonly
+          ></textarea>
+
+          <p id="note" class="note">
+            Note: For English → Morse. Letters are separated by spaces, words by
+            <code>/</code>.
+          </p>
+          <p id="message" class="message"></p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

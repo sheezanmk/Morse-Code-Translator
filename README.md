@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Description
 
 The purpose of this project was to build a Morse Code Translator that can convert:
@@ -150,3 +151,26 @@ If given more time, I would:
 - Improve accessibility with ARIA labels and keyboard support
 
 - Add sound playback for Morse code
+=======
+A simple web-based tool that translates:
+
+English → Morse Code
+
+Morse Code → English
+
+This is built using HTML, CSS, and JavaScript, with translation logic fully covered by Jest unit tests.
+
+Features
+
+Translates English text to Morse code
+
+Translates Morse code back to English
+
+Performs input validation
+
+Clear button to reset the translator
+
+Handles unknown characters safely
+
+Jest tests validating both translation functions
+>>>>>>> 9728fe3d5bd421f9b8b75dadd8fac323ca189055

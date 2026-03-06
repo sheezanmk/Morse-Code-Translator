@@ -1,5 +1,5 @@
 
-## Description
+## Morse Code Translator
 
 The purpose of this project was to build a Morse Code Translator that can convert:
 
@@ -18,6 +18,14 @@ The project focuses on:
 - Separating logic from DOM manipulation
 
 This project was part of learning how to design pure functions and build testable frontend logic.
+
+## Demo
+
+- https://legendary-brioche-074852.netlify.app/
+
+- Screenshot
+
+  <img width="874" height="792" alt="image" src="https://github.com/user-attachments/assets/6939aca4-f185-4a45-b166-550df6555386" />
 
 ## Features
 

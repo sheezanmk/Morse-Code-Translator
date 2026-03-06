@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## Description
 
 The purpose of this project was to build a Morse Code Translator that can convert:
